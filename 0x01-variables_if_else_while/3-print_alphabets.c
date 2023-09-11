@@ -9,9 +9,9 @@ int main(voint)
 {
   char lt;
 
-  for(lt=a; lt<=z; lt++)
+  for(lt='a'; lt<='z'; lt++)
     putchar(lt);
-  for(lt=A; lt<=Z; lt++)
+  for(lt='A'; lt<='Z'; lt++)
     putchar(lt);
   putchar("\n")
 
