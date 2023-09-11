@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -5,14 +6,13 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
-char letter;
 
-for (letter = a; letter <= z; letter++)
-putchar(letter);
-
-putchar(n);
-
-return (0);
+int main() {
+    char ch;
+    while ((ch = getchar()) != EOF) {
+        putchar(tolower(ch));
+    }
+    putchar(n);
+    return 0;
 }
+
