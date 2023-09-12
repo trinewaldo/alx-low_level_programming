@@ -3,12 +3,11 @@
 /*
 * A program that prints _putchar followed by a new line
 * The program returns 0
-*/ 
+*/
 
 int main(void)
 {
-  printf("_putchar \n");
+  printf("_putchar");
   printf("\n");
-  
   return (0);
 }
