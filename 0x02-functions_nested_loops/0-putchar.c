@@ -8,7 +8,7 @@
 int main(void)
 
 /*
-* A program that prints _putchar followed by a new line
+* main-print putchar followed by a new line
 * The program returns 0
 */
 
