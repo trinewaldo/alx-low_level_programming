@@ -6,14 +6,10 @@
 
 /*
 * main-print putchar followed by a new line
-*/
-
-int main(void)
-
-/*
 * The program returns 0
 */
 
+int main(void)
 {
 printf("_putchar");
 printf("\n");
