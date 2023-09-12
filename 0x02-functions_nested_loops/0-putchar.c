@@ -8,7 +8,7 @@
 * main-print putchar followed by a new line
 */
 
-int main(void)
+main(void)
 
 /*
 * The program returns 0
