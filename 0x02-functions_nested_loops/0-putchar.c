@@ -5,14 +5,15 @@
 
 #include <stdio.h>
 
+int main(void)
+,
 /*
 * A program that prints _putchar followed by a new line
 * The program returns 0
 */
 
-int main(void)
 {
-printf("_putchar");
-printf("\n");
+putchar("_putchar");
+putchar("\n");
 return (0);
 }
