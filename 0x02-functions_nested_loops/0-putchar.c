@@ -7,7 +7,6 @@
 
 main()
 {
-README.md printf("_putchar \n");
-README.md return(0);
+  putchar("_putchar \n");
+  return(0);
 }
-
