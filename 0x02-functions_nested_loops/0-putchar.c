@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /*
@@ -6,8 +5,10 @@
 * The program returns 0
 */ 
 
-int main()
+int main(void)
 {
   printf("_putchar \n");
+  printf("\n");
+  
   return (0);
 }
