@@ -1,20 +1,31 @@
-   #include "main.h"
-   /**
-   * print_last_dgt - prints the last dgt
-   * @n: the number 
-   *
-   * Return: value of the last dgt
-   */
-  int print_last_dgt(int n)
-      {
-         int ld = (n % 10);
+#include <stdio.h>
 
-           if (ld < 0) 
-              ld *= -1;
+int print_last_digit(int n)
+{
+	int last_digit = n % 10; /* Calculate the last digit */
 
+	/* Ensure the last_digit is positive */
+	if (last_digit < 0)
+	{
+		last_digit = -last_digit;
+	}
+	printf("%d", last_digit); /* Print the last digit */
+	return last_digit;
+}
 
-           _putchar(ld + '0') 
+/**
+ * main - Entry point
+ * Description: Use thr puts function to print the string and add a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int r;
 
-       return (ld);
-    } 
-         
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
+	_putchar('0' + r);
+	_putchar('\n');	
+	return (0);
+}
