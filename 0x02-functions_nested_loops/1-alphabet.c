@@ -6,6 +6,6 @@
  */
 main()
 {
-	print("abcdefghijklmnopqrstuvwxyz\n");
+	printf("abcdefghijklmnopqrstuvwxyz\n");
 	return 0;
 }
