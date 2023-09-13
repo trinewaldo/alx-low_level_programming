@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in lowercase.
-*
-* Return: Always 0.
-*/
+ * main - Entry point
+ * Description: Use thr puts function to print the string and add a new line
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 
-	while (letter = 'a'; letter <= 'z'; letter++)
+	while (letter <= 'z')
 	{
-		putchar(letter);
+	_putchar(letter);
+	letter++;
 	}
-	putchar('\n');
-
-	return (0);
+	_putchar('\n');
+	return (0); 
 }
