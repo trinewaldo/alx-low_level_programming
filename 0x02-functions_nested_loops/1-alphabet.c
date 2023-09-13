@@ -7,10 +7,9 @@
  * Return: Always 0.
  */
 
-void printAlphabet() {
-    int i;
-    
-    while (i = 'a'; i <= 'z'; i++)
+void printAlphabet()
+{
+    while (int i = 'a'; i <= 'z'; i++)
     {
         putchar(i);
         putchar('\n');
@@ -18,7 +17,8 @@ void printAlphabet() {
     
 }
 
-int main() {
+int main()
+{
     printAlphabet();
     return 0;
 }
