@@ -5,10 +5,9 @@
 
 int main(void)
 {
-char let;
+int let;
   
-while(let = a; let <= z let++)
+while(let = 'a'; let <= 'z' let++)
 putchar(let);
 putchar("\n")
 }
-
