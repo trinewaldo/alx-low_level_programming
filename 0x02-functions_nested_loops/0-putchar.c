@@ -1,19 +1,13 @@
+#include <stdio.h>
 
- /*
- * File: 0-putchar.c 
- *
- */
+/*
+* A program that prints _putchar followed by a new line
+* The program returns 0
+*/
 
- #include "main.h" 
-
- /** 
- * main-print putchar followed by a new line
- * 
- *Return :always 0
- */
-  int main(void)
+int main(void)
 {
-printf("_putchar");
-printf("\n");
-return (0);
+  printf("_putchar");
+  printf("\n");
+  return (0);
 }
