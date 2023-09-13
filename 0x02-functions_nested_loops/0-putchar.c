@@ -1,24 +1,13 @@
-/*
-* File: 0-putchar.c
-*
-*/
-
 #include <stdio.h>
 
 /**
-* main-print putchar followed by a new line
-* Return: Always 0.
-*/
+ * main - Entry point
+ * Description: Use thr puts function to print the string and add a new line
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-printf("_putchar");
-printf("\n");
-
-return (0);
-
-/**
-* main function to return 0 when successful
-* Return: Always 0.
-*/
+	printf("_putchar\n");	
+	return (0); 
 }
