@@ -1,24 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - prints the alphabet in lowercase with nexw line at the end
  */
 
-void printAlphabet()
+void print_alphabet(void)
 {
-    for (int i = 'a'; i <= 'z'; i++)
-    {
-        putchar(i);
-        putchar('\n');
-    }
-    
-}
+	char alpha;
 
-int main(void)
-{
-    printAlphabet();
-    return 0;
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
+	}
+	_putchar('\n');
 }
