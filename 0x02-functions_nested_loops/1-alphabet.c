@@ -6,7 +6,7 @@
 * Return always 0.
 */
 
-int main(void)
+main(void)
 {
 void print_alphabet(void)
 {
