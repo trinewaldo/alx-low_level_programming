@@ -1,11 +1,19 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
  */
-char main(void)
+int main(void)
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
-	return 0;
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter);
+	}
+	putchar('\n');
+
+	return (0);
 }
