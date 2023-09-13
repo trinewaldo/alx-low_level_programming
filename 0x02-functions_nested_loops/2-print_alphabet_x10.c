@@ -1,15 +1,24 @@
- #include "main.h"
- /**
- * print_alphabet_x10-prints lowercase alphabets 10 times 
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Description: Use thr puts function to print the string and add a new line
+ * Return: Always 0 (Success)
  */
- void print_alphabet_x10(void)
-{   
-    int ten;
-    char la;
+int main(void)
+{
+	char letter = 'a';
+	int count = 0;
 
-    for ( 10 = 0 ; 10 <= 9 ; ten++) 
-      { for (la ='a' ; la <= 'z' ;la++) 
-           _putchar (la) ;
-        _putchar ('/n');
-      } 
- } 
+	while (count < 10)
+	{
+		while (letter <= 'z')
+		{
+			_putchar(letter);
+			letter++;
+		}
+		_putchar('\n');
+		letter = 'a'; // Reset the letter to 'a' for the next line
+		count++;
+	}
+	return (0);
+}
