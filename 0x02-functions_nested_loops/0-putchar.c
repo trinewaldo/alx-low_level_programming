@@ -13,7 +13,8 @@
 
 int main()
 {
-putchar('putchar' );
+putchar('_putchar' );
 putchar('\n');
+
 return (0);
 }         
