@@ -4,7 +4,7 @@
  * print_alphabet - prints the english alphabet from a-z.
  * Return: Nothing.
  */
-main()
+char main(void)
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
 	return 0;
