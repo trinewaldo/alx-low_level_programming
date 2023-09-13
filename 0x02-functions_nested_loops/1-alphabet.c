@@ -1,14 +1,18 @@
- #include "main.h"
+#include "main.h"
 
- /** 
- * print_alphabet - prints lowercase alphabets
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
  */
- void print_alphabet(void) 
-{   
-     char la;
+int main(void)
+{
+ char lt;
 
-    for (la ='a' ;la <= 'z' ; la++)
-          putchar (la);
-
-     putchar ('\n') ;
-} 
+ while(lt='a'; lt<='z'; lt++)
+  {
+  printf(lt);
+  printf("\n");
+ }
+return (0);
+}
