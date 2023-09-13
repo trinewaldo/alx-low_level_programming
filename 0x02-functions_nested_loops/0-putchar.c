@@ -7,17 +7,16 @@
 
 /**
 * main-print putchar followed by a new line
+* Return: Always 0.
 */
 
 int main(void)
-
-/**
-* Return :always 0
-*/
-
 {
 printf("_putchar");
 printf("\n");
 
 return (0);
+/**
+* Return: Always 0.
+*/
 }
