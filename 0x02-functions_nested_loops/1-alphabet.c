@@ -5,14 +5,13 @@
  *
  * Return: Always 0.
  */
-main(void)
-{
- char lt;
 
- while(lt='a'; lt<='z'; lt++)
-  {
-  printf(lt);
-  printf("\n");
- }
-return (0);
+void printAlphabet()
+{
+    for (char c = 'a'; c <= 'z'; c++)
+    {
+        putchar(c);
+        putchar('\n');
+    }
 }
+
