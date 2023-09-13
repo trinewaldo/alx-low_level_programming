@@ -5,7 +5,7 @@
 
 int main(void)
 {
-int let;
+char let;
   
 while(let = a; let <= z let++)
 putchar(let);
