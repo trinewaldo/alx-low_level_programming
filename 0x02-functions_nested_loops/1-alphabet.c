@@ -1,17 +1,13 @@
-#include "main.h"
+/*
+* a function that prints the alphabets in lower case followed by a new line.
+* Prototype: void print_alphabet(void);
+*/
 
- /** 
- * print_alphabet - prints lowercase alphabets
- */
-
-int main
+int main(void)
 {
-void print_alphabet(void) 
-{   
-char la;
 
-for (la ='a' ;la <= 'z' ; la++)
-putchar (la);
-putchar ('\n') ;
-} 
+while(let = a; let <= z let++)
+putchar(let);
+putchar("\n")
 }
+
