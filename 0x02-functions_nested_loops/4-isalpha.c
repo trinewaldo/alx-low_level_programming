@@ -11,7 +11,7 @@
 int main() 
 {
 char str[] = "Hello World!";
-for (int i = 0; i < strlen(str); i++) 
+while (int i = 0; i < strlen(str); i++) 
 {
 if (isalpha(str[i])) 
 {
