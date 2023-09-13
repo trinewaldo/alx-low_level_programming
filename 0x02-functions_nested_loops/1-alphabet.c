@@ -17,7 +17,7 @@ void printAlphabet()
     
 }
 
-int main()
+int main(void)
 {
     printAlphabet();
     return 0;
