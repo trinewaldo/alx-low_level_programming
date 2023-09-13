@@ -13,8 +13,8 @@
 
 int main()
 {
-putchar("_putchar");
-putchar("\n");
+printf("_putchar");
+printf("\n");
 
 return (0);
 }         
