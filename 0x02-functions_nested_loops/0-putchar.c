@@ -10,12 +10,14 @@
 */
 
 int main(void)
+
+/**
+* Return :always 0
+*/
+
 {
 printf("_putchar");
 printf("\n");
 
-/**
-*Return :always 0
-*/
 return (0);
 }
