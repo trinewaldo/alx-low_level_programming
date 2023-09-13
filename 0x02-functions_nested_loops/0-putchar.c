@@ -18,7 +18,7 @@ printf("\n");
 return (0);
 
 /**
-* the program should  return 0.
+* The program should  return (0)
 * Return: Always 0.
 */
 }
