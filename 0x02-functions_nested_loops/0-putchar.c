@@ -1,5 +1,5 @@
 /*
-* File: 0-putchar.c 
+* File: 0-putchar.c
 *
 */
 
@@ -11,10 +11,10 @@
 *Return :always 0
 */
 
-int main()
+int main(void)
 {
 printf("_putchar");
 printf("\n");
 
 return (0);
-}         
+}
