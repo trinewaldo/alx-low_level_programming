@@ -5,7 +5,7 @@ char letter = 'a';
 char full;
 while (letter <= 'z')
 {
-full = full +" "+ letter;
+full = full + letter;
 letter++;
 }
 putchar(full);
