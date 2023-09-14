@@ -5,7 +5,7 @@
  * Description: Use the puts function to print the string and add a new line
  * Return: Always 0 (Success)
  */
-int main(void)
+int print_alphabet(void)
 {
 char letter = 'a';
 
