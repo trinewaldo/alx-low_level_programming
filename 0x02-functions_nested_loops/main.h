@@ -1,5 +1,5 @@
 #include <stdio.h>
-int print_alphabet()
+print_alphabet()
 {
 char letter = 'a';
 char full;
