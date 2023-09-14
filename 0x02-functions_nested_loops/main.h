@@ -2,7 +2,7 @@
 print_alphabet()
 {
 char letter = 'a';
-char full[];
+char full;
 while (letter <= 'z')
 {
 full = full + letter;
@@ -10,5 +10,5 @@ letter++;
 }
 printf("%c",full);
 printf("\n");
-return (full);         
+return full;         
 }
