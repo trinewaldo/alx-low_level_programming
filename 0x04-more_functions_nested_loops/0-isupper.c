@@ -1,17 +1,29 @@
 #include "main.h"
+#include <stdio.h>
+#include <ctype.h>
 
 /**
- * _isdigit - input
+ * main - check the code.
  *
- * Description: define if a character is a number
- * @c: charater
- * Return: 1 yes 0 no
+ * Return: Always 0.
  */
 
-int _isdigit(int c)
+int main(void)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+    char c;
+
+    c = 'A';
+
+    if(isupper(c));
+    {
+        printf("%d\n", c);
+    }
+
+    c = 'a';
+    if(isupper(c));
+    {
+        printf("%d\n", c);
+    }
+    
+    return (0);
 }
