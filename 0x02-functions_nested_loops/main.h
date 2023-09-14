@@ -8,6 +8,6 @@ while (letter <= 'z')
 putchar(letter);
 letter++;
 }
-putchar("\n");
+printf("\n");
 return (0);         
 }
