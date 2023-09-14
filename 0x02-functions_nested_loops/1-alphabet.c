@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Use thr puts function to print the string and add a new line
+ * Description: Use the puts function to print the string and add a new line
  * Return: Always 0 (Success)
  */
 
@@ -15,6 +15,6 @@ while (letter <= 'z')
 putchar(letter);
 letter++;
 }
-putchar("\n");
-return (0); 
+printf("\n");
+return (0);
 }
