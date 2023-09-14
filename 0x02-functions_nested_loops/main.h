@@ -1,4 +1,4 @@
-int print_alphabet(void)
+int print_alphabet()
 {
 char letter = 'a';
 
