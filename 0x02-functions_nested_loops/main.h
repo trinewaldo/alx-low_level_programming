@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int main(void)
+/* int main(void)
 
 /*
 * main-print putchar followed by a new line
