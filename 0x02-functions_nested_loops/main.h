@@ -2,12 +2,13 @@
 int print_alphabet()
 {
 char letter = 'a';
-
+char full;
 while (letter <= 'z')
 {
-putchar(letter);
+full = full +" "+ letter;
 letter++;
 }
+putchar(full);
 printf("\n");
 return (0);         
 }
