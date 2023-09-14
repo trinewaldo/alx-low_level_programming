@@ -10,5 +10,5 @@ letter++;
 }
 putchar(full);
 printf("\n");
-return (0);         
+return (full);         
 }
