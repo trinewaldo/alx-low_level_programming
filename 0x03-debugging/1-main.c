@@ -13,11 +13,7 @@ int main(void)
 
         i = 0;
 /*
-* The while loop used doesn't have a regurlater.
-* The value of i is always less that 10 as it doesn't decrease.
-*/
-
-/*
+*
 *        while (i < 10)
 *       {
 *               putchar(i);
