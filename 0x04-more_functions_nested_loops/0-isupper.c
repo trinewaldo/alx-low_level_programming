@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <ctype.h>
 
+/**
+* main - check the code.
+*
+* Return: Always 0.
+*/
+
 int _isupper(char c, char d)
 {
     printf("%c: %d\n", c, isupper(c));
