@@ -2,18 +2,19 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/**
-* main - check the code.
-*
-* Return: Always 0.
-*/
-int main(void)
+int _isupper(char c, char d)
 {
-    char c;
+    printf("%c: %d\n", c, isupper(c));
+    printf("%c: %d\n", d, isupper(d));
 
-    c = 'A';
-    printf("%c: %d\n", c, isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, isupper(c));
     return (0);
+}
+
+int main() {
+    int c = 'A';
+    int d = 'a';
+
+    _isupper(c, d);
+
+    return 0;
 }
