@@ -1,26 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 
 /**
-* main - check the code.
-*
-* Return: Always 0.
-*/
+ * _isupper - define if a character is uppercase
+ *
+ * Description: Prints the alphabet with _putchar
+ * @c: charater
+ * Return: void
+ */
 
-int _isupper(char c, char d)
+int _isupper(int c)
 {
-    printf("%c: %d\n", c, isupper(c));
-    printf("%c: %d\n", d, isupper(d));
-
-    return (0);
-}
-
-int main() {
-    int c = 'A';
-    int d = 'a';
-
-    _isupper(c, d);
-
-    return 0;
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
