@@ -7,23 +7,14 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
     char c;
 
     c = 'A';
-
-    if(isupper(c));
-    {
-        printf("%d\n", c);
-    }
-
+    printf("%c: %d\n", c, isupper(c));
     c = 'a';
-    if(isupper(c));
-    {
-        printf("%d\n", c);
-    }
-    
+    printf("%c: %d\n", c, isupper(c));
     return (0);
 }
+
