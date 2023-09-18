@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * pointer updates the value it points to to 98.
+ * Funtion takes interger pointer and updates the value it points to to 98.
  *
  * Return: nothing.
  */
