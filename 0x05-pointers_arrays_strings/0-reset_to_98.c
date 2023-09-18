@@ -3,7 +3,8 @@
 
 /**
  * updates the value of pointer to 98.
- * Return nothing.
+ *
+ * Return: nothing.
  */
 void reset_to_98(int *n)
 {
