@@ -3,6 +3,7 @@
 /**
  * Funtion to swap two values
  *
+ * gets two int parameters and swaps them.
  */
 void swap_int(int *a, int *b)
 {
