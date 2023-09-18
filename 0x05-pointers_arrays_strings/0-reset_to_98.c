@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * updates the value of pointer to 98.
+ * pointer updates the value it points to to 98.
  *
  * Return: nothing.
  */
