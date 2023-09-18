@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * Funtion to swap two values
@@ -12,4 +12,3 @@ c = *a;
 *a = *b;
 *b = c;
 }
-
