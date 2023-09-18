@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * @n: An integer input pointer
+ * n: An integer input pointer
  *
  * Return: nothing.
  */
