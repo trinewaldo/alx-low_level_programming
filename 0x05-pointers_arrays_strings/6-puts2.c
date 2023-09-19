@@ -5,17 +5,16 @@
  * @str: pointer to the string to point
  * Return: void
  */
-int void_puts2(char *str)
+void reverseString(char str[])
 {
-int i = 0;
+int length = strlen(str);
+int i, j;
+char temp;
 
-while (str[i] != '\0' )
+for (i = 0, j = length - 1; i < j; i++, j--)
 {
-if (i % 2 == 0)
-{
-putchar(str[i]);
-} 
-i++;
+temp = str[i];
+str[i] = str[j];
+str[j] = temp;
 }
-putchar('\n');
 }
