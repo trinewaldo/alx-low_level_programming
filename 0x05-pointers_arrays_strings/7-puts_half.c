@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * prints_half - printing half a string
  * @str: that's the string
@@ -7,18 +10,12 @@
  */
 void puts_half(char *str)
 {
-int length = 0;
-
-while (*str)
-length++;
-str++;
-}
-length ++;
-start += length / 2;
-while(*start)
+int length = strlen(*str);
+int halfLength = length / 2;
+    
+for (int i = 0; i < halfLength; i++) 
 {
-putchar(*(start));
-start++;
+printf("%c", str[i]);
 }
-putchar('\n');
+printf("\n");
 }
