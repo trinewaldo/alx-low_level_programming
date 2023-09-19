@@ -13,7 +13,7 @@ while (*str)
 length++;
 str++;
 }
-length  += 1;
+length ++;
 start += length / 2;
 while(*start)
 {
