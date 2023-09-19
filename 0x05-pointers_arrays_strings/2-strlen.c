@@ -6,10 +6,7 @@
  * @s: pointer to the string to check
  * Return: void
  */
-int _strlen(char *s) 
+int _strlen(char *s);
 {
-int len;
-len = strlen(const char *s);
-
-return (len);
-} 
+    return strlen(s);
+}
