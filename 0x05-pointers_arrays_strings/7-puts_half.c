@@ -14,6 +14,6 @@ void puts_half(char *str)
 int length = strlen(str);
 int halfLength = length / 2;
     
-fwrite(str, sizeof(char), halfLength, stdout);
+printf("%s\n", str + halfLength);
 printf("\n");
 }
