@@ -1,24 +1,27 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *  _strcpy -  copies a string into a deztinated variable
- * @dest: destination char argument of characters
- * @src: source char argument of characters
- * Return: a string of character upon success
+ * *_strcpy - copies the string pointed to by src
+ * including the terminating null byte (\0)
+ * to the buffer pointed to by dest
+ * @dest: pointer to the buffer in which we copy the string
+ * @src: string to be copied
+ *
+ * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
-int l;
-int i;
+	int len, i;
 
-while (src[l] != '\0')
-{
-l++;
-}
+	len = 0;
 
-for (i = 0; i < l ; i++)
-{
+	while (src[len] != '\0')
+	{
+		len++;
+	}
+
+	for (i = 0; i < len; i++)
+	{
 dest[i] = src[i];
 }
 dest[i] = '\0';
