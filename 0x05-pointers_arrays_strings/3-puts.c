@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _puts - prints string
@@ -8,6 +9,10 @@
  */
 void _puts(char *str)
 {
-char prin[] = *str;
-printf("%s\n", prin);
+while (*str != '\0' )
+{
+putchar(*str);
+str++;
+}
+putchar('\n');
 }
