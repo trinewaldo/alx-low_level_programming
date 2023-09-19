@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_array - print the element of an array
  * @a: name of an array
  * @n: size of an array 
  */
-
 void print_array(int *a, int n)
 {
 int i;
@@ -18,4 +18,4 @@ else
 printf("%d, ", a[i]);
 }
 printf("\n");
-} 
+}
