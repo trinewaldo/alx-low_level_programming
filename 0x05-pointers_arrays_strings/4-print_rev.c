@@ -18,6 +18,5 @@ while (i--)
 {
 putchar(s[i]);
 }
-putchar('/n');
-
+putchar('\n');
 }
