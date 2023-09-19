@@ -22,5 +22,4 @@ temp = s[j];
 s[j--] = s[i];
 s[i++] = temp;
 }
-return (temp);
 }
