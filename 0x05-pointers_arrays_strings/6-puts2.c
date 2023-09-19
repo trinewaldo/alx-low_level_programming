@@ -7,7 +7,7 @@
  * @str: pointer to the string to point
  * Return: void
  */
-void rev_string(char *s)
+void puts2(char *str)
 {
 int length = strlen(str);
 int i, j;
