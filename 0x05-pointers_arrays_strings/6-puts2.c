@@ -5,7 +5,7 @@
  * @str: pointer to the string to point
  * Return: void
  */
-void reverseString(char str[])
+void rev_string(char *s)
 {
 int length = strlen(str);
 int i, j;
