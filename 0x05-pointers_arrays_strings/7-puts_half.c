@@ -5,7 +5,7 @@
 /**
   * prints_half - printing half a string
   * @str: that's the string
-  *
+  * put_half return prints the last half of the string
   * Return: void
   */
 void puts_half(char *str)
