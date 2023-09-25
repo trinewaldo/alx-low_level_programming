@@ -8,15 +8,15 @@
  *
  * Return: Always value
  */
-char *_memcpy(char *dest, char *src, unsigned int n) {
-    char *ptr_dest = dest;
-    char *ptr_src = src;
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+    int a = 0;
+    int b = n;
 
-    for (unsigned int i = 0; i < n; i++) {
-        *ptr_dest = *ptr_src;
-        ptr_dest++;
-        ptr_src++;
+    for (; a < b; a++)
+    {
+        dest[a] = src[a];
+        n--;
     }
-
     return dest;
 }
