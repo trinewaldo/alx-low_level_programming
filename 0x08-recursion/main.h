@@ -9,3 +9,4 @@ int is_palindrome(char *s);
 bool is_alphanumeric(char c);
 bool is_palindrome_recursive(char *s, int left, int right);
 bool is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
