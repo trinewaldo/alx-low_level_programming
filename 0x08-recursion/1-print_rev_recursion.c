@@ -14,5 +14,5 @@ for(int m=i-1; m>=0; m--)
 {
 putchar(s[m]);
 }
-printf("\n);
+printf("\n");
 }
