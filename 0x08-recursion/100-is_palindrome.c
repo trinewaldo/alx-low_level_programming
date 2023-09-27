@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-#include <ctype.h> 
+#include <ctype.h>
 
 int is_alphanumeric(char c)
 {
-return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'));
+return ((c >='a' && c <='z') || (c >='A'&& c <='Z') || (c >='0' && c <='9'));
 }
 int is_palindrome_helper(char *s, int left, int right)
 {
