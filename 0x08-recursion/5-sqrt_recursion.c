@@ -4,8 +4,6 @@
 
 int _sqrt_recursion(int n)
 {
-float top = sqrt(n);
-
 if (n < 0)
 {
 return (-1);
