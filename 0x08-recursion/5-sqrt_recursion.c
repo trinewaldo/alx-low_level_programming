@@ -1,11 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-int helper(int n, int start, int end) {
-    if (start > end) {
+int helper(int n, int start, int end) 
+{
+int mid = (start + end) / 2;
+
+if (start > end) 
+{
         return -1;
-    }
-    int mid = (start + end) / 2;
+}
 
     if (mid * mid == n)
     {
