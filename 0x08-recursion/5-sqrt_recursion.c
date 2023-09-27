@@ -7,7 +7,7 @@ if (start > end)
 {
 return -1;
 }
-int mid = (start + end) / 2;
+int mid = ((start + end) / 2);
 if (mid * mid == n)
 {
 return mid;
