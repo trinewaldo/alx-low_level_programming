@@ -9,10 +9,12 @@
 void _print_rev_recursion(char *s)
 {
 int i = strlen(s);
+int m = i-1;
 
-for(int m=i-1; m>=0; m--)
+while(m>=0)
 {
 putchar(s[m]);
+m--;
 }
 printf("\n");
 }
