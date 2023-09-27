@@ -1,39 +1,34 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdbool.h>
 #include <string.h>
 
-int is_alphanumeric(char c)
+bool is_alphanumeric(char c)
 {
-return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= 0 && c <= 9));
+return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');
 }
-char to_lowercase(char c)
+bool is_palindrome_recursive(char *s, int left, int right)
 {
-if (c >= 'A' && c <= 'Z')
+if (left >= right)
 {
-return (c + ('a' - 'A'));
+return true;
 }
-return (c);
-}
-int is_palindrome(char *s)
+if (!is_alphanumeric(s[left]))
 {
-int left = 0;
-int right = strlen(s) - 1;
-while (left < right)
-{
-while (left < right && !is_alphanumeric(s[left]))
-{
-left++;
+return is_palindrome_recursive(s, left + 1, right);
 }
-while (left < right && !is_alphanumeric(s[right]))
+if (!is_alphanumeric(s[right]))
 {
-right--;
+return is_palindrome_recursive(s, left, right - 1);
 }
-if (to_lowercase(s[left]) != to_lowercase(s[right]))
+if (tolower(s[left]) != tolower(s[right]))
 {
-return (0);
+return false;
 }
-left++;
-right--;
+return is_palindrome_recursive(s, left + 1, right - 1);
 }
-return (1);
+bool is_palindrome(char *s)
+{
+int length = strlen(s);
+return is_palindrome_recursive(s, 0, length - 1);
 }
