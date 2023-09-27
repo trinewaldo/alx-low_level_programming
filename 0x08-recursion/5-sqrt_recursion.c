@@ -1,33 +1,32 @@
 #include "main.h"
 #include <stdio.h>
 
-int helper(int n, int start, int end)
-{
-if (start > end)
-{
-return -1;
-}
-int mid;
-mid = ((start + end) / 2);
-if (mid * mid == n)
-{
-return mid;
-}
-if (mid * mid > n)
-{
-return helper(n, start, mid - 1);
-}
-return helper(n, mid + 1, end);
-}
+/**
+ * _sqrt_recursion - Recursive function to calculate the square root
+ * @n: The number for which to calculate the square root
+ *
+ * Return: The square root of n, or -1 if there's no natural square root
+ */
 int _sqrt_recursion(int n)
 {
 if (n < 0)
 {
 return -1;
 }
+
 if (n == 0 || n == 1)
 {
 return n;
 }
-return helper(n, 0, n);
+
+int guess = 1;
+while (guess * guess <= n)
+{
+if (guess * guess == n)
+{
+return guess;
+}
+guess++;
+}
+return -1;
 }
