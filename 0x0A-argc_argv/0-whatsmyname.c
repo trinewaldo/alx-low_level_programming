@@ -7,16 +7,10 @@
  *
  * Return: 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char **argv)
 {
-  int countna;
+	(void)argc;
 
-  if(argc > 1)
-  {
-    for(countna = 1; countna < argc; countna ++)
-    {
-      printf("Name %d is - %s \n", countna, argv[countna]);
-    }
-  }
- return (0);
+	printf("%s\n", argv[0]);
+	return (0);
 }
