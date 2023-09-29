@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,8 +7,16 @@
  *
  * Return: 0
  */
-int main(int argc, char **argv)
+int main (int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
-	return (0);
+  int countna;
+
+  if(argc > 1)
+  {
+    for(countna = 1; countna < argc; countna ++)
+    {
+      printf("Name %d is - %s \n", countna, argv[countna]);
+    }
+  }
+ return (0);
 }
